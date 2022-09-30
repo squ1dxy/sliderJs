@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    background: grey;
+}
+
+.container{
+    width: 1220px;
+    margin: 0 auto;
+    background-color: darkgrey;
+    padding: 30px;
+}
+
+.slider{
+    width: 300px;
+    height: 300px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.slider-line{
+    display: flex;
+    background: orange;
+    position: relative;
+    left: 0;
+    transition: all ease 0.8s;
+}
+
+img{
+    width: 300px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+button{
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    border: 0px;
+    transition: all ease 0.5s;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
